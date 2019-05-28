@@ -1,0 +1,35 @@
+h1 { width:190px; padding:5px; font-size:35px; font-weight:bold; font-family:Arial; color:#FFFF00; background:#999999; border-bottom:3px solid #FFFFFF; margin:0;}
+h2 { padding:5px; font-size:24px; font-weight:bold; font-family:Arial; color:#FFFF00; background:#666666; border-bottom:3px solid #FFFFFF; margin:0;}
+#logo { font-family:Arial; font-size:80px; color:#1C1C1C; font-weight:bold; background:#A9D0F5; width:1fr; padding:20px; text-align: center;}
+#page { display: grid; grid-template-columns: 230px 1fr;}
+#menu {  padding:20px; width:300px; background:#666666; float:left; height:800px }
+#menu ul { margin:0; padding:0;}
+#menu li { width:190px; padding:5px; border-bottom:1px dotted #FFFFFF; font-family:Arial; font-size:30px; font-weight:bold; color:#FFFFFF; list-style:none;}
+#contents { padding:20px; background: #999999; font-size:12px; font-family:Verdana; color:#FFFFFF; float:left; height:800px; text-align: center;}
+#text { padding:5px; line-height:150%; font-family:Verdana; text-align:justify; text-align: center;}
+
+a:link {color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: blue; text-decoration: underline;}
+
+
+
+
+
+
+
+
+@media (max-width:1218px) {
+
+    #logo { font-family:Arial; font-size:30px; color:#1C1C1C; font-weight:bold; background:#A9D0F5; width:530px; padding:10px; text-align: center;}
+    #page { display: grid; grid-template-columns: 130px 400px;}
+    #menu {  padding:10px; width:130px; background:#666666; float:left; height:600px; text-align: left;}
+    #menu ul { margin:0; padding:0;}
+    #menu li { width:100px; padding:10px; border-bottom:1px dotted #FFFFFF; font-family:Arial; font-size:15px; font-weight:bold; color:#FFFFFF; list-style:none;}
+    #contents { padding:20px; background: #999999; font-size:20px; font-family:Verdana; color:#FFFFFF; float:left; height:600px; text-align: center;}
+    h1 { width:100px; padding:5px; font-size:25px; font-weight:bold; font-family:Arial; color:#120A2A; background:#999999; border-bottom:3px solid #FFFFFF; margin:0;}
+
+
+
+
+}
